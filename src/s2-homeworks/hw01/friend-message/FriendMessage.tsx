@@ -1,6 +1,5 @@
 import React from 'react'
 import s from './FriendMessage.module.css'
-import {friendMessage0, MessageType} from "../HW1";
 import {MessagePropsType} from "../message/Message";
 
 
@@ -16,6 +15,7 @@ const FriendMessage = (props: MessagePropsType) => {
                     id={'hw1-friend-avatar-' + props.message.id}
                     // создаёт студент
                     src={props.message.user.avatar} //?????????????????
+                    alt='avatar'
                     //
                 />
                 <div className={s.friendText}>
