@@ -8,7 +8,7 @@ import s2 from '../../s1-main/App.module.css'
 * 3 - дописать типы и логику функции filterAffairs и проверить её тестами
 * 4 - выполнить пункт 3 для функции deleteAffair
 * 5 - указать нужный тип в useState с affairs
-* 6 - дописать тип и логику функции deleteAffairCallback
+* 6 - дописать тип и логику функции deleteAffairCallback ???????
 * 7 - в файле Affairs.tsx дописать типизацию пропсов
 * 8 - в файле Affairs.tsx дописать логику функций setAll, setHigh, setMiddle, setLow
 * 9 - в файле Affair.tsx дописать типизацию пропсов
