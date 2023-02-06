@@ -32,6 +32,11 @@ const defaultAffairs: AffairType[] = [ // need to fix any
     {_id: 3, name: 'games', priority: 'low'},
     {_id: 4, name: 'work', priority: 'high'},
     {_id: 5, name: 'html & css', priority: 'middle'},
+    {_id: 6, name: 'React', priority: 'high'}, // студенты могут изменить содержимое name и количество элементов в массиве, ...priority не менять!
+    {_id: 7, name: 'anime', priority: 'low'},
+    {_id: 8, name: 'games', priority: 'low'},
+    {_id: 9, name: 'work', priority: 'high'},
+    {_id: 10, name: 'html & css', priority: 'middle'},
 ]
 
 // pure helper functions
@@ -58,7 +63,7 @@ function HW2() {
 
     const filteredAffairs = filterAffairs(affairs, filter)
     const deleteAffairCallback = (_id: number) => { // need to fix any
-        // need to fix
+        setAffairs(affairs.filter(af => af._id !== _id))// need to fix
     }
 
     return (
