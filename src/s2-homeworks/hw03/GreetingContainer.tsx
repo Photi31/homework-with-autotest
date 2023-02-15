@@ -3,8 +3,8 @@ import Greeting from './Greeting'
 import { UserType } from './HW3'
 
 type GreetingContainerPropsType = {
-    users: any // need to fix any
-    addUserCallback: any // need to fix any
+    users: UserType[] // need to fix any
+    addUserCallback: (name: string) => void // need to fix any
 }
 
 export const pureAddUser = (name: any, setError: any, setName: any, addUserCallback: any) => {
@@ -26,14 +26,17 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
     addUserCallback,
 }) => {
     // деструктуризация пропсов
-    const [name, setName] = useState<any>('') // need to fix any
-    const [error, setError] = useState<any>('') // need to fix any
+    const [name, setName] = useState<string>('') // need to fix any
+    const [error, setError] = useState<string>('') // need to fix any
 
-    const setNameCallback = (e: any) => { // need to fix any
-        setName('some name') // need to fix
-
-        error && setError('')
+    const setNameCallback = (e: string) => { // need to fix any
+        if (e.length > 0) {
+            setName(e) // need to fix
+        } else {
+            error && setError('')
+        }
     }
+
     const addUser = () => {
         pureAddUser(name, setError, setName, addUserCallback)
     }
