@@ -6,6 +6,8 @@
     margin: 0 auto;
     margin-top: 250px;
     background: white;
+    position: relative;
+    z-index: 1;
 }
 
 .hw {
@@ -15,7 +17,7 @@
 }
 
 .hwTitle {
-    padding: 130px 0 0 70px;
+    padding: 50px 0 0 70px;
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
