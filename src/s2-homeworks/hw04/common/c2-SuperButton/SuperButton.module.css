@@ -1,6 +1,6 @@
 .button {
     padding: 5px 24px;
-    min-width: 110px;
+    width: 110px;
     height: 30px;
     text-align: center;
     font-size: 14px;
@@ -11,9 +11,9 @@
 }
 
 .disabled {
-    background: #004D99;
+    background: #0066CC;
     opacity: 0.5;
-    color: #002E5C;
+    color: white;
 }
 
 .secondary {
