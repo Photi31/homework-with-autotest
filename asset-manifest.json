@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/homework-with-autotest/static/css/main.7220b3aa.css",
-    "main.js": "/homework-with-autotest/static/js/main.005548c8.js",
+    "main.css": "/homework-with-autotest/static/css/main.565b2a11.css",
+    "main.js": "/homework-with-autotest/static/js/main.2ca305ed.js",
     "static/js/787.66cb4309.chunk.js": "/homework-with-autotest/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/homework-with-autotest/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/200.svg": "/homework-with-autotest/static/media/200.96248f7df0dde10e0a82ac30418f50bc.svg",
@@ -14,12 +14,12 @@
     "static/media/checked.svg": "/homework-with-autotest/static/media/checked.b75ca55e8759862b4083.svg",
     "index.html": "/homework-with-autotest/index.html",
     "static/media/burger.svg": "/homework-with-autotest/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.7220b3aa.css.map": "/homework-with-autotest/static/css/main.7220b3aa.css.map",
-    "main.005548c8.js.map": "/homework-with-autotest/static/js/main.005548c8.js.map",
+    "main.565b2a11.css.map": "/homework-with-autotest/static/css/main.565b2a11.css.map",
+    "main.2ca305ed.js.map": "/homework-with-autotest/static/js/main.2ca305ed.js.map",
     "787.66cb4309.chunk.js.map": "/homework-with-autotest/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7220b3aa.css",
-    "static/js/main.005548c8.js"
+    "static/css/main.565b2a11.css",
+    "static/js/main.2ca305ed.js"
   ]
 }
