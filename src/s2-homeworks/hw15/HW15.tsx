@@ -5,6 +5,7 @@ import axios from 'axios'
 import SuperPagination from './common/c9-SuperPagination/SuperPagination'
 import {useSearchParams} from 'react-router-dom'
 import SuperSort from './common/c10-SuperSort/SuperSort'
+import loading from './icons/loading.png'
 
 /*
 * 1 - дописать SuperPagination
@@ -110,7 +111,11 @@ const HW15 = () => {
             <div className={s2.hwTitle}>Homework #15</div>
 
             <div className={s2.hw}>
-                {idLoading && <div id={'hw15-loading'} className={s.loading}>Loading...</div>}
+                {idLoading && <div id={'hw15-loading'} className={s.loading}>
+                    <div className={s.fone}>
+                        <img alt={'loading'} src={loading}/>
+                    </div>
+                </div>}
 
                 <SuperPagination
                     page={page}

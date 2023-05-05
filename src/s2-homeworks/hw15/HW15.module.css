@@ -49,7 +49,24 @@
 }
 
 .loading {
-
+}
+.fone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 1280px;
+    height: 100%;
+    z-index: 3;
+    background-color: rgba(225, 225, 225, .8);
+}
+.loading img {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 90px;
+    height: 90px;
+    z-index: 3;
 }
 
 .img {
