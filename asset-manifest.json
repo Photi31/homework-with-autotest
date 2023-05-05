@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/homework-with-autotest/static/css/main.2c4cb3a9.css",
-    "main.js": "/homework-with-autotest/static/js/main.331afbd2.js",
+    "main.css": "/homework-with-autotest/static/css/main.9a3458fe.css",
+    "main.js": "/homework-with-autotest/static/js/main.5cebdb23.js",
     "static/js/787.66cb4309.chunk.js": "/homework-with-autotest/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/homework-with-autotest/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/200.svg": "/homework-with-autotest/static/media/200.96248f7df0dde10e0a82ac30418f50bc.svg",
@@ -9,6 +9,7 @@
     "static/media/500.svg": "/homework-with-autotest/static/media/500.adbc5f265f6f3c1fb9c5633ffe365afa.svg",
     "static/media/400.svg": "/homework-with-autotest/static/media/400.8baa1b795048b6fa13ff8d30800aa1b1.svg",
     "static/media/404.svg": "/homework-with-autotest/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
+    "static/media/loading.png": "/homework-with-autotest/static/media/loading.012011537174a405dbb7.png",
     "static/media/closeOutline.svg": "/homework-with-autotest/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
     "static/media/editIcon.svg": "/homework-with-autotest/static/media/editIcon.0a0cefd2190b593b4f76bb1a5afe0c1f.svg",
     "static/media/checked.svg": "/homework-with-autotest/static/media/checked.b75ca55e8759862b4083.svg",
@@ -17,12 +18,12 @@
     "static/media/Sort.svg": "/homework-with-autotest/static/media/Sort.8774329271f4eaa26e3c18f5733a99c0.svg",
     "static/media/Sort-Down.svg": "/homework-with-autotest/static/media/Sort-Down.8eeae4bbafebc7fb3e3e9eeb2ea2a14e.svg",
     "static/media/Sort-Up.svg": "/homework-with-autotest/static/media/Sort-Up.b0e9cfe8a94a9a9de12ff4734da151a3.svg",
-    "main.2c4cb3a9.css.map": "/homework-with-autotest/static/css/main.2c4cb3a9.css.map",
-    "main.331afbd2.js.map": "/homework-with-autotest/static/js/main.331afbd2.js.map",
+    "main.9a3458fe.css.map": "/homework-with-autotest/static/css/main.9a3458fe.css.map",
+    "main.5cebdb23.js.map": "/homework-with-autotest/static/js/main.5cebdb23.js.map",
     "787.66cb4309.chunk.js.map": "/homework-with-autotest/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c4cb3a9.css",
-    "static/js/main.331afbd2.js"
+    "static/css/main.9a3458fe.css",
+    "static/js/main.5cebdb23.js"
   ]
 }
